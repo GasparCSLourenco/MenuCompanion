@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="246dp"
+        android:layout_height="112dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333">
+
+        <TextView
+            android:id="@+id/RVtextViewNameMenu"
+            style="@style/BrandText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/RVtextViewDescMenu"
+            style="@style/BrandText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineBreakStyle="strict"
+            android:lines="2"
+            android:singleLine="false"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/editTextEditPrice"
+            style="@style/BrandText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edit Price"
+            android:inputType="numberDecimal"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="83dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/RVimageViewMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBoxAdd"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

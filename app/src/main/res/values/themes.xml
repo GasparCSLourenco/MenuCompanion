@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Gr03_GroupProject" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+
+    <style name="BrandFont" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:font">@font/poppinsbold</item>
+    </style>
+
+    <style name="BrandButton" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="fontFamily">@font/poppinsregular</item>
+        <item name="backgroundTint">@color/brandTitle</item>
+        <item name="android:textColor">@color/brandWhite</item>
+    </style>
+
+    <style name="BrandText">
+        <item name="fontFamily">@font/poppinsregular</item>
+        <item name="android:textColor">@color/brandWhite</item>
+    </style>
+
+    <style name="BrandEditText">
+        <item name="fontFamily">@font/poppinsregular</item>
+        <item name="android:textColor">@color/brandWhite</item>
+    </style>
+
+    <style name="BrandTitle">
+        <item name="fontFamily">@font/poppinsbold</item>
+        <item name="android:textColor">@color/brandTitle</item>
+    </style>
+
+    <style name="Theme.Gr03_GroupProject" parent="Base.Theme.Gr03_GroupProject" />
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gr03_GroupProject</string>
+    <string name="intro">"Welcome to Coffee&amp;Code"</string>
+    <string name="loyaltyText">"Create account to earn your Virtual Loyalty Card"</string>
+</resources>

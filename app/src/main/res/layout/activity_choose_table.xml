@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseTable"
+    android:background="@color/brandBG">
+
+    <Button
+        android:id="@+id/table2"
+        style="@style/BrandButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        android:text="Table 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/table6"
+        style="@style/BrandButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:text="Table 6"
+        app:layout_constraintEnd_toEndOf="@+id/table2"
+        app:layout_constraintStart_toStartOf="@+id/table2"
+        app:layout_constraintTop_toBottomOf="@+id/table4" />
+
+    <Button
+        android:id="@+id/table4"
+        style="@style/BrandButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:text="Table 4"
+        app:layout_constraintEnd_toEndOf="@+id/table2"
+        app:layout_constraintStart_toStartOf="@+id/table2"
+        app:layout_constraintTop_toBottomOf="@+id/table2" />
+
+    <Button
+        android:id="@+id/table5"
+        style="@style/BrandButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:text="Table 5"
+        app:layout_constraintStart_toStartOf="@+id/table3"
+        app:layout_constraintTop_toBottomOf="@+id/table3" />
+
+    <Button
+        android:id="@+id/buttonScan"
+        style="@style/BrandButton"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:text="Scan QR Code"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.647" />
+
+    <Button
+        android:id="@+id/table1"
+        style="@style/BrandButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:text="Table 1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/table3"
+        style="@style/BrandButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:text="Table 3"
+        app:layout_constraintStart_toStartOf="@+id/table1"
+        app:layout_constraintTop_toBottomOf="@+id/table1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Choose Table"
+        style="@style/BrandTitle"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
